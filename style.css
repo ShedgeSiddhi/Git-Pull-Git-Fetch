@@ -1,3 +1,27 @@
-"{
-  margin: 0;
+/* This is an external stylesheet (e.g., style.css) */
+
+body {
+  font-family: Arial, sans-serif; /* Sets the default font for the entire page */
+  background-color: #f0f0f0; /* Sets a light gray background color */
+  margin: 20px; /* Adds a 20px margin around the body content */
+}
+
+h1 {
+  color: #333; /* Sets the heading color to dark gray */
+  text-align: center; /* Centers the heading text */
+}
+
+p {
+  color: #666; /* Sets the paragraph text color to a lighter gray */
+  line-height: 1.5; /* Increases the line spacing for better readability */
+}
+
+.highlight {
+  background-color: yellow; /* Sets a yellow background for elements with the class "highlight" */
+  padding: 5px; /* Adds padding around the highlighted text */
+}
+
+#unique-element {
+  border: 1px solid blue; /* Adds a blue border to the element with the ID "unique-element" */
+  padding: 10px;
 }
